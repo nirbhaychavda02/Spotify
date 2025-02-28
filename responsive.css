@@ -1,0 +1,158 @@
+/* Base Styles (Existing styles will apply) */
+
+/* Responsive Design for Tablets (1024px and below) */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .songItem {
+        width: 100%;
+    }
+
+    .songInfo {
+        left: 5vw;
+    }
+    
+    .songLyrics img {
+        left: 5vw;
+    }
+}
+
+/* Responsive Design for Mobile (768px and below) */
+@media (max-width: 768px) {
+    /* Navigation */
+    nav ul {
+        
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    
+    .brand {
+        font-size: 1.2rem;
+    }
+
+    /* Song List */
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 295px;
+    }
+
+    .songItemsContainer {
+        width: 100%;
+    }
+
+    .songItem {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        text-align: left;
+        height: 20px;
+        width: 310px;
+    }
+
+    .songItem img {
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .songListPlay {
+        margin-left: auto;
+    }
+
+    /* Bottom Player */
+    .bottom {
+        height: 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons i {
+        font-size: 1.8rem;
+    }
+
+    #myProgressBar {
+        width: 90%;
+    }
+
+    .songInfo {
+        position: static;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .songLyrics img {
+        top: -8px;
+    }
+}
+
+/* Extra Small Mobile Screens (480px and below) */
+@media  (max-width: 480px) {
+    /* Adjust Navigation */
+    .brand {
+        font-size: 1rem;
+    }
+
+    /* Reduce Image & Text Size */
+    .songItem img {
+        width: 40px;
+    }
+
+    .songName {
+        font-size: 13px;
+    }
+
+    .songListPlay i {
+        font-size: 1.2rem;
+    }
+
+    /* Adjust Player Controls */
+    .icons i {
+        font-size: 1.5rem;
+    }
+
+    .bottom {
+        height: 93px;
+    }
+
+    #myProgressBar {
+        width: 95%;
+    }
+
+    .songInfo {
+        font-size: 0.9rem;
+    }
+    
+}
+
+/* Ultra Small Screens (320px and below) */
+@media (max-width: 320px) {
+    .brand {
+        font-size: 0.9rem;
+    }
+
+    .songItem {
+        padding: 5px;
+    }
+
+    .songItem img {
+        width: 35px;
+    }
+
+    .icons i {
+        font-size: 1.3rem;
+    }
+
+    .songInfo {
+        display: none;
+    }
+
+    #myProgressBar {
+        width: 100%;
+    }
+}
