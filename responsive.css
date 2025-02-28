@@ -87,7 +87,7 @@
     }
 
     .songLyrics img {
-        top: -8px;
+        top:1px;
     }
 }
 
@@ -113,11 +113,11 @@
 
     /* Adjust Player Controls */
     .icons i {
-        font-size: 1.5rem;
+        font-size: 40px;
     }
 
     .bottom {
-        height: 93px;
+        height: 102px;
     }
 
     #myProgressBar {
