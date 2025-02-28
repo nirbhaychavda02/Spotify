@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand"><img src="Logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of  NCS - No Copyright Sounds</h1>
+            <div class="songItemsContainer">
+                <div class="songItem">
+                    <img src="Cover/01.cover.jpeg" alt="1">
+                    <span class="songName">Tenu Sang Rakhana</span>
+                    <span class="songListPlay"><span class="timestamp">4:26 <i id="0" class="fa-regular songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/02.cover.jpeg" alt="1">
+                    <span class="songName">Tera Yaar Hoon Main</span>
+                    <span class="songListPlay"><span class="timestamp">4:28 <i id="1" class="fa-regular songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/03.cover.jpeg" alt="1">
+                    <span class="songName">Shayad</span>
+                    <span class="songListPlay"><span class="timestamp">3:10 <i id="2" class="fa-regular songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/04.cover.jpeg" alt="1">
+                    <span class="songName">Tu Chhodiyo na</span>
+                    <span class="songListPlay"><span class="timestamp">3:32 <i id="3" class="fa-regular songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/05.cover.jpeg" alt="1">
+                    <span class="songName">Ishq Hai</span>
+                    <span class="songListPlay"><span class="timestamp">2:02 <i id="4" class="fa-regular songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/06.cover.jpeg" alt="1">
+                    <span class="songName">Raanjhan </span>
+                    <span class="songListPlay"><span class="timestamp">4:12 <i id="5" class="fa-regular songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/07.cover.jpeg" alt="1">
+                    <span class="songName">O Rangrez</span>
+                    <span class="songListPlay"><span class="timestamp">6:25 <i id="6" class="fa-regular songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/08.cover.jpeg" alt="1">
+                    <span class="songName">Sajna</span>
+                    <span class="songListPlay"><span class="timestamp">3:45 <i id="7" class="fa-regular songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Cover/09.cover.jpeg" alt="1">
+                    <span class="songName">Mere Sohneya</span>
+                    <span class="songListPlay"><span class="timestamp">3:11 <i id="8" class="fa-regular songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+                
+                <div class="songItem">
+                    <img src="Cover/10.cover.jpeg" alt="1">
+                    <span class="songName">Kabira</span>
+                    <span class="songListPlay"><span class="timestamp">4:12 <i id="9" class="fa-regular songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar"  min="0" value="0" max="100">
+        <div class="icons">
+            <!-- Fontawesome icons -->
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+           
+        </div>
+        <div class="songInfo" ><span id="masterSongName">Tenu Sang Rakhana</span></div>
+        <div class="songLyrics"><img src="playing-unscreen.gif" width="100px" alt="" id="gif"></div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
